@@ -9,8 +9,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario</title>
   </head>
   <body>
     <main>
@@ -18,19 +18,26 @@
         <h2>Formulario</h2>
         <div class="form">
           <label for="nome">Nome</label>
-          <input type="text" class="input input-nome" name="nome"/>
+          <input type="text" class="input input-nome" name="nome" />
         </div>
         <div class="form">
           <label for="nascimento">Data de Nascimneto</label>
-          <input type="date" class="input input-nascimento" name="nascimento"/>
+          <input type="date" class="input input-nascimento" name="nascimento" />
         </div>
         <div class="form">
           <label for="email">Email</label>
-          <input type="email" class="input input-email" name="email"/>
+          <input type="email" class="input input-email" name="email" />
         </div>
         <div class="form">
           <label for="cpf">CPF</label>
-          <input type="text" class="input input-cpf" placeholder="999.999.999-99" maxlength="14" name="cpf" oninput="formatarCPF(this)"/>
+          <input
+            type="text"
+            class="input input-cpf"
+            placeholder="999.999.999-99"
+            maxlength="14"
+            name="cpf"
+            oninput="formatarCPF(this)"
+          />
         </div>
         <div>
           <button type="button" class="btn btn-login">Cadastrar</button>
