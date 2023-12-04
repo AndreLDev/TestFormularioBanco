@@ -14,3 +14,8 @@ function limitarDigitos(input, maxDigits) {
     // Atualiza o valor do campo
     campo.value = cpf;
   }
+
+  function removeMask(cpfComMascara) {
+    // Remove todos os caracteres que não são dígitos
+    return cpfComMascara.replace(/\D/g, '');
+  }
